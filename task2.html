@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="task1.css">
+    <script src="task2.js" defer></script>
+    <style>
+        #enterData{
+            font-size: 1.5rem;
+            border: 4px rgba(0 0 0 /50%) ridge;
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <div>Загальний рахунок <output id="percent">0</output>%
+        (<output id="countAnswer">0</output> правильних відповідей з 10)
+    </div>
+    <button id="buttonNext">наступне завдання</button>
+    <div>
+        <output id="testQuestion1">1 </output>
+        x
+        <output id="testQuestion2">2</output>
+        =
+        <input type="text" id="enterData">
+        <button id="checkOut">Перевірити</button>
+    </div>
+    <label>Результат:
+        <output id="result"></output>
+    </label>
+</form>
+</body>
+</html>
